@@ -1,4 +1,4 @@
-<p align="center"  style="font-weight:800;">
+<p align="center"  style="  font-weight: bold; font-size: 15px;">
 Arescales
 </p>
 <p align="center">
