@@ -1,6 +1,6 @@
-<p align="center" >
+<h6 align="center" >
 Arescales
-</p>
+</h6>
 <p align="center">
 A real estate analytics calculator built in Python (React website pending!)
 </p>
