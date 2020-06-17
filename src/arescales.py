@@ -10,7 +10,7 @@ import geo as ge
 import graph as gr
 import calc as cc
 
-class basicalily(cc.calcbot, gr.graphbot):
+class arescales(cc.calcbot, gr.graphbot):
     def __init__(slf, geobot, params):
         slf.grid_cnt = params['grid_cnt'] if 'grid_cnt' in params.keys() else 10
         slf.window = params['window'] if 'window' in params.keys() else 30
@@ -33,7 +33,7 @@ if __name__ == '__main__':
     realestate_file = 'processed_realestate.csv'
     raw_df = pd.read_csv(realestate_file)
     params = {'grid_cnt':4, 'window':5, 'step':1, 'model': LinearRegression() }
-    M = basicalily(ge.geobot(raw_df, False), params)
+    M = arescales(ge.geobot(raw_df, False), params)
     dix = M.raw_distrix
 
     # M.scatter_district(dix[7][0], LinearRegression())
