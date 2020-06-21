@@ -2,7 +2,7 @@
 
 A•re•cales: A taxonomic order within the clade commelinids – the palms.
 
-Arescales: A bird's eye view of real estate.
+Airscales: A bird's eye view of real estate.
 
 <p align="center">
 A real estate analytics dashboard built in Python (React website pending!)
