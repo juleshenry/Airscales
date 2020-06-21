@@ -9,7 +9,7 @@ A real estate analytics dashboard built in Python (React website pending!). At p
   <ul>
     <li> Phase 0: Python Backend Functions </li>
     <li> Phase 1: Node.js Frontend Functions </li>
-    <li> Phase 2: Connecting frontend to backend and deploying Google Maps API interactivity. <li>
+    <li> Phase 2: Connecting frontend to backend and deploying Google Maps API interactivity <li>
 </p>
 
 <p align="center">
