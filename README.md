@@ -6,13 +6,15 @@ Airscales: The definitive bird's eye view of real estate.
 A real estate analytics dashboard built in Python (React website pending!).
   
   At present, there are three phases pending for this project.
-  <ul>
+ 
+</p>
+
+ <ul>
     <li> Phase 0: Python Backend Functions </li>
     <li> Phase 1: Node.js Frontend Functions </li>
     <li> Phase 2: Connecting frontend to backend and deploying Google Maps API interactivity <li>
   </ul>
-</p>
-
+  
 <p align="center">
   <img src="assets/arescales.jpg" style="height: 55vw; min-width: 420px;" />
 </p>
