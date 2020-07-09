@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map for <%= user%>;</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=<%= GOOGLE_MAPS_API_KEY%>&callback=initMap">
+</script>
+      
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script>var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: -34.397, lng: 150.644 },
+          zoom: 8
+        });
+      }</script>
+  </head>
+  <style>
+    #map {
+      height: 100%;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  
+  <body>
+    <div id="map"></div>
+  </body>
+</html>
